@@ -35,6 +35,10 @@ static char *try_exact_fit(char **p, size_t len);
 
     This change here will lkely will be in conflict
 
+=======
+   FIRST CHANGE
+
+SECOND CHANGE
 */
 char *fgetline_notrim(char **p, FILE *stream)
 {
