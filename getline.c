@@ -32,6 +32,10 @@ static char *try_exact_fit(char **p, size_t len);
    or when a call to |malloc| returns |NULL|. In all four cases,
    the characters which have been read so far, if any, still
    reside in the dynamically allocated buffer |*p|.
+
+   FIRST CHANGE
+
+SECOND CHANGE
 */
 char *fgetline_notrim(char **p, FILE *stream)
 {
