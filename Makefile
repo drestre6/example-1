@@ -8,3 +8,6 @@ another test done by Dorin Rpo
 
 clean :
 	rm *.out
+	
+	
+	finally Make file also changed
