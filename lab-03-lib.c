@@ -6,6 +6,8 @@
 #include "getline.h"
 #include "lab-03.h"
 
+// the lib is also changed
+
 void doMenu( char *outfileName, char ***dictionary, int *count, int *wordcapacity)
 {
 FILE *outfile;
