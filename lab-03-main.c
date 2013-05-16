@@ -12,6 +12,8 @@ int main( int argc, char *argv[] )
         double elapsedCPUsecs;
 
 
+        // main also
+
 
         char **dictionary=malloc(50*sizeof(char*));
         int count=0;
