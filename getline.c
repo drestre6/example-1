@@ -19,7 +19,7 @@ static void try_resize(char **p, size_t *cap);
 static char *try_exact_fit(char **p, size_t len);
 
 // first litle change
-
+// trying to change the branch in the repository
 
 /*
    The |fgetline_notrim| function reads characters from |stream| and
