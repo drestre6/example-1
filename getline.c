@@ -8,6 +8,8 @@
    Public domain.
 */
 
+// finally another change
+
 #include <ctype.h>
 #include <limits.h>
 #include <stdio.h>
@@ -19,6 +21,9 @@ static void try_resize(char **p, size_t *cap);
 static char *try_exact_fit(char **p, size_t len);
 
 // first litle change
+// second change
+// third change
+// fourth change
 
 
 /*
@@ -145,6 +150,8 @@ static char *try_exact_fit(char **p, size_t len)
 }
 
 
+// another file changed
+
 /*
    The function |trim_123| just slaps a zero byte into the position
    after the last non-whitespace character in the given string. It
@@ -168,6 +175,8 @@ char *trim_123(char *s)
     return s;
 }
 
+
+// change in trim also
 
 /*
    The |fgetline_123| function is just like |fgetline_notrim|, except
